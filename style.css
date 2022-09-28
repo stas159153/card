@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:Poppins;
+    box-sizing: border-box;
+}
+.card{
+    width: 250px;
+    border-radius: 0 0 0 30px ;
+    margin: auto;
+    margin-top: 25vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    overflow: hidden;
+}
+
+.fhoto{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.title-text{
+    padding: 30px 0 20px 15px;
+
+}
+.card-p{
+    font-size: 45px;
+    padding-bottom: 15px;
+    font-family: Abyssinica SIL;
+}
+.card-title{
+    padding-bottom: 30px;
+    color: rgb(168, 121, 59);
+    font-weight: 500;
+}
+.card-lorem{
+    padding: 0px  0px;
+    line-height: 14px;
+    font-size: 14px;
+}
+.card-link{
+    background-color: rgb(168, 121, 59);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-decoration:none ;
+    margin-right: 40px;
+}
+.title-link{
+    display: flex;
+    align-items: center; 
+}
+.link-text{
+    font-size: 13px;
+    font-weight: 500;
+}
+.link-content{
+    height: 3px;
+    background-color: rgb(68, 68, 68);
+}
+.link-content{
+    width: 100%;
+}
+.link-about{
+    width: 40%;
+    height: 4px;
+    background-color:rgb(255, 145, 0) ;
+}
+
